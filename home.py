@@ -21,7 +21,7 @@ st.write("أهلا وسهلا بك في مساعد **موني مون**! اطرح
 # Input Area
 question = st.text_input("📝 اسألني سؤال", placeholder="اكتب سؤالك هنا...")
 model='mistralai/Mistral-7B-Instruct-v0.3'
-huggingface_api = os.getenv("huggingface_api", st.secrets["huggingface_api"])
+huggingface_api = st.secrets["huggingface_api"]
 
 @st.cache_resource
 def load_llm():

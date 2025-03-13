@@ -17,7 +17,7 @@ st.set_page_config(page_title="مساعد موني مون", page_icon="💬", la
 # Header
 st.title("💬 مساعد موني مون")
 st.write("أهلا وسهلا بك في مساعد **موني مون**! اطرح سؤالك حول خدماتنا وستحصل على الإجابة مباشرة. 😊")
-huggingface_api = st.text_input("اكتب الاتي ", placeholder="اكتب هنا...")
+huggingface_api = st.text_input("api ادخل", placeholder="اكتب هنا...")
 apiButton= st.button("اضغط لتحميل المودل")
 # Input Area
 question = st.text_input("📝 اسألني سؤال", placeholder="اكتب سؤالك هنا...")

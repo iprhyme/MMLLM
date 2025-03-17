@@ -4,3 +4,4 @@ langchain_core==0.3.43
 streamlit==1.42.2
 huggingface-hub==0.23.4
 sentence-transformers==3.0.1 
+chromadb==0.6.3
